@@ -1,0 +1,18 @@
+
+/*------------------------------------------
+FORM STYLE
+------------------------------------------*/
+
+html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50%;
+    -webkit-tap-highlight-color: blue;
+    text-size-adjust: auto;
+    text-size-adjust: auto;
+}
+title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    font-color: red;
+    
+}
