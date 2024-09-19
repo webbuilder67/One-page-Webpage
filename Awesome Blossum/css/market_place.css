@@ -1,0 +1,71 @@
+
+.market_place1 {
+    border:3px double green;
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+    clear: both;
+}
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgba(148, 241, 237, 0.4);
+     justify-content: left; 
+}
+.mp_container {
+    width: 15%; 
+    margin: 10px 0.8% 10px 0.8%;
+    text-align: center;
+}  
+.mp_container img {
+    width: 100%;
+}
+
+.market_table {
+    width: 100%;
+}
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    width: 95%;
+    border: 3px solid green;
+    margin: 50px 2.5% 30px 2.5%;
+
+}
+th {
+    border: 1px solid black;
+}
+#col1 {
+    width:10%;
+}
+#col2 {
+    width:40%;
+}
+#col3 {
+    width:20%;
+}
+#col4 {
+    width:10%;
+}
+#col5 {
+    width:20%;
+}
+td {
+    border: 1px solid black; 
+    padding: 1px 0px 1px 1px;
+}
+@media only screen and (max-width: 800px) {
+    .mp_container {
+        width: 30%; 
+        margin: 10px 1.6% 10px 1.6%;
+        text-align: center;
+    }  
+}   
+@media only screen and (max-width: 600px) {
+    .mp_container {
+        width: 45%; 
+        margin: 10px 2.5% 10px 2.5%;
+        text-align: center;
+    }  
+}

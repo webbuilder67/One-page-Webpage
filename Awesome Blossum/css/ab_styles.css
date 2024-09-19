@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+
+}
+nav img {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    width: 35%;
+    min-width: 200px;
+}
+nav ul {
+    list-style-type:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large; 
+    padding-top: 5%;
+}
+nav li {
+    float: left;
+    padding-right: 10px;
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    /*font-weight: bold;*/
+    color: mediumorchid; 
+    /*font-size: x-large;*/
+    clear:both;
+}
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: black;
+    font-weight: normal;padding-bottom: 60px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-weight: normal;
+    font-size: small;
+    clear: both;
+    /*text-align: center; */  
+}
+.p1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.gallery {
+    border:3px double green;
+    width: 100%;
+   /* height:max-content;*/
+    float: left;
+    margin-bottom: 40px;
+}
+.row {
+    width: 100%;
+    clear: both;
+}
+.container {
+    float: left;
+    width: 28%; 
+    margin: 10px 2.6% 10px 2.6%;
+    text-align: center;
+}
+.container img {
+    width: 100%;
+}
+.market_place {
+   clear: both; 
+}
+.market_place_checkout {
+    clear: both; 
+}
+.form_container {
+    clear: both;
+}
+.footer {
+    clear:both;
+    color: blue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 3px solid green;
+}
+.photo_box {
+    float: left;
+    width: 30%;
+    height: 27vw;
+    padding: 10px 1% 10px 1%;
+    text-align: center;
+    border-radius: 8%;
+    border: 3px solid mediumorchid;
+    margin-right: 1.6%;
+    margin-left: 1.6%;
+    margin-bottom: 1.6%;
+}
+.photo_box img {
+    width: 100%;
+    border-radius: 8%;
+    border: 3px solid blue;
+   /* opacity: 0;*/
+}
+.caption {
+   /* height: 150px;*/
+}
+@media only screen and (max-width: 850px) {
+    nav {
+        width: 30%; 
+        margin: 10px 1.6% 10px 1.6%;
+        text-align: left;
+    }  
+    nav li {
+        clear: both;
+        padding-right: 10px;
+    }
+}   
+@media only screen and (max-width: 400px) {
+    nav {
+        width: 60%; 
+        margin: 10px 2.5% 10px 2.5%;
+        text-align: left;
+    } 
+}     

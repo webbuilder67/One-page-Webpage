@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<Head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/ab_styles.css">
+		<link rel="stylesheet" href="./css/blog_setup.css">
+		<title>Blog & Conv.</title>
+	</Head>
+	<body>
+	
+		<!-- NAV -->
+		<nav>
+			<img src="./images/logo1.png" alt="Awesome Blossom Logo" >
+			<div>
+				<ul >
+					<li><a href="index.html" class="link">Home</a></li>
+					<li>Blog</li>
+					<li><a href="gallery.html" class="link">Gallery</a></li>
+					<li><a href="market_place.html" class="link">Marketplace</a></li>
+					<li><a href="checkout.html" class="link">Checkout</a></li>
+				</ul>
+			</div>
+        </nav>
+		<!-- END NAV -->
+		
+		
+		<!-- Blog and Conversation -->
+		<div id="blog_and_conversation">
+			<h1>Blog and Conversation</h1>
+			<h5> This space is for stories, Our blog and conversations. This is for all Craft related questions, answer and crafting related dialog.</h5>
+		</div>
+		
+		<!--Blog Gallery-->
+		<div class="gallery">
+			<h1>Blog Gallery</h1>
+            
+		<!-- PHOTO-CONTAINER 1 -->
+
+            <div class="row">
+			    <div class="photo_box">
+					<img src="./images/pic5.jpg" alt="">
+				    <p class="caption">photo dedscription</p>
+			    </div>
+				
+		<!-- END PHOTO-CONTAINER 1 -->
+					
+		<!-- PHOTO-CONTAINER 2 -->
+					
+			   <div class="photo_box">
+				<img src="./images/pic6.jpg" alt="">
+				    <p class="caption">photo description</p>
+			    </div>
+		<!-- END PHOTO-CONTAINER 2 -->
+					
+					
+			    <div class="photo_box">
+					<img src="./images/pic1.jpg" alt="">
+				    <p class="caption">photo description</p>
+			    </div>
+					
+            </div>
+		</div>
+		<!-- PHOTO-CONTAINER 3 -->
+
+
+		<div class=" gallery">
+			<h1>Blog Conversation</h1>
+			<p class="blog_title">Post 1</p>
+			<p class="blog_content">The Blog Conversation</p>
+			<hr>
+			<p class="blog_content">Reply</p>
+			<hr><hr>
+			<p class="blog_title">Post 2</p>
+			<p class="blog_content">The Blog Conversation</p>
+			<hr>
+			<p class="blog_content">Reply</p>
+			<hr>
+		
+		
+		
+		
+		</div>
+		<p> Contact me using the following form: </p>
+
+		<form id="contact_form" name="contact_form" class="my-form"
+     		 action="contact_confirm.php" target="_self" method="get">
+
+   		<label for="name" onclick="name.focus()">
+	  		Name
+   		</label>
+   		<br>
+   		<input id="name" name="name" type="text" spellcheck="false" required
+          		placeholder="Name"
+	     		 onblur="this.placeholder='Name Required'" onfocus="this.placeholder=''">
+   		<p></p>
+
+   		<label for="email" onclick="email.focus()">
+      	Email
+   		</label>
+   		<br>
+  		 <input id="email" name="email" type="email" spellcheck="false" required
+         		 placeholder="email"
+	      		onblur="this.placeholder='email Required'" onfocus="this.placeholder=''">
+   		<p></p>
+
+  		 <label for="message" onclick="message.focus()">
+     		 Message
+   		</label>
+  		 <br>
+   		<textarea id="message" name="message" spellcheck="false" rows="14" required
+             		placeholder="message"
+            		 onblur="this.placeholder='Message Required'" onfocus="this.placeholder=''"></textarea>
+   		<p></p>
+   
+
+   		<input id="sendbtn" name="sendbtn" value="Send" type="submit" class="form-button">
+   		<input id="clearbtn" name="clearbtn" value="Clear" type="reset" class="form-button">
+	   
+		</form>
+		<!-- FOOTER -->
+		<div class="footer">
+			www.awesomeblossom.com  &nbsp; &copy; 2023
+		</div>
+		<!-- END FOOTER -->
+		
+	</body>
+	</html>	

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<Head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/ab_styles.css">
+		<link rel="stylesheet" href="./css/checkout.css">
+		<title>Checkout</title>
+	</Head>
+	<body>
+	
+		<!-- NAV -->
+		<nav>
+			<img src="./images/logo1.png" alt="Awesome Blossom Logo" >
+			<div>
+				<ul >
+					<li><a href="index.html" class="link">Home</a></li>
+					<li><a href="blog_and_conversation.html" class="link">Blog</a></li>
+					<li><a href="gallery.html" class="link">Gallery</a></li>
+					<li><a href="market_place.html" class="link">Marketplace</a></li>
+					<li>Checkout</li>
+				</ul>
+			</div>
+        </nav>
+		<!-- END NAV -->
+		
+		<div class="checkout_form">
+			<form action="" method="get">
+				<table class="checkout_table">
+				<tr><th>Item</th><th>Quantity</th><th>Price</th><th>Total</th></tr>
+				<tr class="row_to_clone">
+				  <td><input type="text" name="item[0]"/></td>
+				  <td><input type="text" name="quantity[0]"/></td>
+				  <td><input type="text" name="price[0]"/></td>
+				  <td><input type="text" name="total[0]"/></td>
+				</tr>
+				<tr class="row_to_clone">
+				  <td><input type="text" name="item[1]"/></td>
+				  <td><input type="text" name="quantity[1]"/></td>
+				  <td><input type="text" name="price[1]"/></td>
+				  <td><input type="text" name="total[1]"/></td>
+				</tr>
+				<tr class="row_to_clone">
+				  <td><input type="text" name="item[2]"/></td>
+				  <td><input type="text" name="quantity[2]"/></td>
+				  <td><input type="text" name="price[2]"/></td>
+				  <td><input type="text" name="total[2]"/></td> 
+				</tr>
+				</table>
+				
+				<div><a onclick="addRow(); return false;" href="#">Add Row</a></div>
+				
+				<p>Contact Information</p>
+				<label for="name" onclick="name.focus()">
+					Name
+				 </label>
+				 <br>
+				 <input id="name" name="name" type="text" spellcheck="false" required
+						placeholder="Name"
+						onblur="this.placeholder='Name Required'" onfocus="this.placeholder=''">
+				 <p></p>
+	  
+				 <label for="phone" onclick="phone.focus()">
+					Phone
+				 </label>
+				 <br>
+				 <input id="phone" name="phone" type="phone" spellcheck="false" required
+						placeholder="phone"
+						onblur="this.placeholder='Phone # Required'" onfocus="this.placeholder=''">
+				 <p></p>
+				
+				<label for="email" onclick="email.focus()">
+					Email
+				 </label>
+				 <br>
+				 <input id="email" name="email" type="email" spellcheck="false" required
+						placeholder="email"
+						onblur="this.placeholder='email Required'" onfocus="this.placeholder=''">
+				<p></p>
+
+				<label for="address" onclick="address.focus()">
+					Shipping Address
+				 </label>
+				 <br>
+				 <input id="address" name="address" type="text" spellcheck="false" required
+						placeholder="Shipping Address"
+						onblur="this.placeholder='Shipping Address Required'" onfocus="this.placeholder=''">
+				<p></p>
+				<div>
+					<input class="form_button" type="submit" value="Submit">
+					<input class="form_button" type="reset" value="Clear Form">
+				</div>		
+			</form>
+		</div>
+				
+
+		<!-- END Market place checkout -->
+		
+		<!-- FOOTER -->
+		<div class="footer">
+			www.awesomeblossom.com  &nbsp; &copy; 2023
+		</div>
+		<!-- END FOOTER -->
+	<script src="./js/checkout.js"></script>
+	</body>
+	</html>	
